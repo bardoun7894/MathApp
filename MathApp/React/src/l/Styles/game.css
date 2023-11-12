@@ -1,0 +1,67 @@
+.quiz2-btn-normal {
+    width: 280px;
+    height: 100px;
+    background-color: #91ABCE;
+    border: #2764B6 1px solid;
+    border-radius: 20px;
+    color: white;
+    margin: 0 12px;
+}
+.quiz2-btn-selected {
+    width :280px;
+    height: 100px;
+    background-color: #ECB546;
+    border: white 1px solid;
+    border-radius: 20px;
+    color: white;
+    margin: 0 12px;
+    transition: background-color 0.5s ease;
+}
+.quiz2-btn-success {
+    width: 280px;
+    height: 100px;
+    animation-name: quiz2-btn-success-anim;
+    animation-duration: 1.5s;
+    border: white 1px solid;
+    border-radius: 20px;
+    color: white;
+    margin: 0 12px;
+    pointer-events: none;
+    opacity: 0;
+    background-color: #80AE47;
+    transition: background-color 0.75s ease;
+}
+@keyframes quiz2-btn-success-anim {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    100% { opacity: 0; transition: opacity 0.75s ease; }
+}
+.quiz2-btn-wrong {
+    width: 280px;
+    height: 100px;
+    animation-name: quiz2-btn-wrong-anim;
+    animation-duration: 2s;
+    border: #2764B6 1px solid;
+    border-radius: 20px;
+    color: white;
+    margin: 0 12px;
+    background-color: #91ABCE;;
+}
+@keyframes quiz2-btn-wrong-anim {
+    0% { pointer-events: none; border: 1px solid white;transform-origin: center; transform: rotate(0deg)}
+    25% { background-color: #972323; pointer-events: none; border: 1px solid white; transform-origin: center; transform: rotate(0deg)}
+    50% { background-color: #972323; pointer-events: none; border: 1px solid white; transform-origin: center; transform: rotate(-8deg)}
+    75% { background-color: #972323; pointer-events: none; border: 1px solid white; transform-origin: center; transform: rotate(8deg)}
+    100% { background-color: #91ABCE; pointer-events: none; border: 1px solid #2764B6; transform-origin: center; transform: rotate(0deg)}
+}
+.quiz2-btn-fs-en {
+    font-size: 34px;
+    margin-top: 10px;
+}
+.quiz2-btn-fs-ar {
+    font-size: 36px;
+    margin-top: 10px;
+}
+.quiz2-container-m {
+    margin: 15px 0 !important;
+}

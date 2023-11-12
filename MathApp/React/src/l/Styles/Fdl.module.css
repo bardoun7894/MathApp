@@ -1,0 +1,129 @@
+/*! General */
+
+.interactive-tab-header {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .warn-area {
+    color: #4f79b4;
+    font-size: 20px;
+  }
+  
+  .disabled-section {
+    pointer-events: none;
+    opacity: 0.6;
+  }
+  
+  .later-line {
+    margin-top: 20px;
+  }
+  
+  .try-container {
+    margin: 25px 5vw;
+  }
+  
+  .show-hide-btn {
+    font-size: 20px;
+    margin-inline-start: 10px;
+    text-align: center;
+  }
+  
+  .widgets-div {
+    width: 280px !important;
+    /* margin-top: 20px; */
+  }
+  
+  .hidden-div {
+    display: none;
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .golden-text {
+    color: #ecb546;
+  }
+  
+  .soft-blue-text {
+    color: #4f79b4;
+  }
+  
+  @media screen and (min-width: 750px) and (max-width: 999px) {
+    .all-row-xs-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .all-col-xs-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .all-row-s-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media screen and (min-width: 1000px) and (max-width: 1199px) {
+    .all-row-xs-col {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .all-col-xs-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .all-row-s-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1799px) {
+    .all-row-xs-col {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .all-col-xs-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .all-row-s-col {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  @media screen and (min-width: 1800px) {
+    .all-row-xs-col {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .all-col-xs-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .all-row-s-col {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
