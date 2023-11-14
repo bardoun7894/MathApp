@@ -2,7 +2,7 @@
   "name": "math",
   "private": true,
   "version": "0.0.0",
-  "type": "module",  
+  "type": "module",   
   "scripts": { 
     "watch": "vite build --watch" ,
     "dev": "vite", 
