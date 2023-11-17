@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Zf2CZkq7DJB4G+aPmAwawJzSaOdLNM5QHE0MDdNYOKkAF9UUD3G3bNq2x4sGRT2PPceAo+a4zHqMt6K0LPKZnQ==",
+  "dgSpecHash": "rCcMFntARI28hvDYRGhTSYIbhNFY6sNl0Yvn4kKKxAs/194fwkJqdw9rNY/juNw4XEFZunAjMYCiburFuyxYKw==",
   "success": true,
   "projectFilePath": "D:\\projects\\Meqyas\\MathApp\\MathApp\\MathApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Alaa\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Alaa\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Alaa\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Alaa\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

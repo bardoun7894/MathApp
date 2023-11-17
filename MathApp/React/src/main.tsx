@@ -12,12 +12,12 @@ import './index.css'
 // locimport { MathInput } from 'Components/MathTools/MathInput' ;
  //import Lesson from './l/Lesson'; 
 //import Translations from "./l/Translations/Translations" ; 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-    <React.StrictMode>
-  
-     <App></App>  
-   
-  {/* <Lesson></Lesson>  */}
-    {/* <MathInput  id="mathin1" width="200px" />  */}
-  </React.StrictMode>,
-) 
+// Select all div elements that follow the pattern "react-root"
+document.querySelectorAll('[id^="ckeditor-"]').forEach(rootElement => {
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(
+      <React.StrictMode>
+          <App />
+      </React.StrictMode>
+  );
+});

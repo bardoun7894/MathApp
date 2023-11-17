@@ -1,15 +1,28 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = null; 
+    // Get the full URL path
+    var fullPath = Context.Request.Path;
+    var pageName = fullPath.Value.Split('/').LastOrDefault();
 }
 
-<div > 
-    
-    <div id="root"></div>
+<h2>Current Page: @pageName </h2>
+<div> 
+    <p>Question one </p>
+    <div id="ckeditor-@pageName-1"></div> 
+    <p>Question two </p>
+    <div id="ckeditor-@pageName-2"></div>
+    <p>Question two </p>
+    <div id="ckeditor-@pageName-3"></div>
+    <p>Question two </p>
+    <div id="ckeditor-@pageName-4"></div>
+</div>
+ 
 
-</div> 
 <script src="~/ckeditor/ckeditor.js"></script>
 
 <script src="~/assets/index.js"></script>
+
 <link rel="stylesheet" href="~/assets/index.css">
 
 

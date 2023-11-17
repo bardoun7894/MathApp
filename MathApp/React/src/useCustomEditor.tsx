@@ -3,8 +3,8 @@ import { useEffect, useRef } from 'react';
   initialValue?: string;
   onChangeEditor?: (data: string) => void;
 }; 
-type EditorHook = {
-  editorRef: React.RefObject<HTMLTextAreaElement>;
+    type EditorHook = {
+      editorRef: React.RefObject<HTMLTextAreaElement>;
 };
 
 declare global {
